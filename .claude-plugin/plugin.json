@@ -1,0 +1,21 @@
+{
+  "name": "optiply",
+  "displayName": "Optiply",
+  "version": "0.15.0",
+  "description": "Onboard your Optiply account and fix your data with the Optiply agent, and run a free purchasing health check on Optiply or on your own system's data: overstock, dead stock, missed sales, slow suppliers and data problems in euros.",
+  "author": {
+    "name": "Optiply",
+    "url": "https://optiply.com"
+  },
+  "homepage": "https://github.com/Optiply/claude-plugin",
+  "repository": "https://github.com/Optiply/claude-plugin",
+  "keywords": [
+    "optiply",
+    "inventory",
+    "purchasing",
+    "onboarding",
+    "data-quality",
+    "health-check"
+  ],
+  "license": "PolyForm-Shield-1.0.0"
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "optiply": {
+      "type": "http",
+      "url": "https://agent.optiply.com/mcp"
+    },
+    "optiply-public": {
+      "type": "http",
+      "url": "https://agent.optiply.com/public/mcp"
+    },
+    "optiply-docs": {
+      "type": "http",
+      "url": "https://help.optiply.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "optiply",
+  "description": "Optiply's Claude Code plugins.",
+  "owner": {
+    "name": "Optiply"
+  },
+  "plugins": [
+    {
+      "name": "optiply",
+      "source": "./",
+      "description": "Onboard your Optiply account, fix your data with the Optiply agent, and run a free purchasing health check."
+    }
+  ]
+}
