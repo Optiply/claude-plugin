@@ -26,7 +26,7 @@ The plugin brings the Optiply connector with it (server `optiply`, `https://agen
    - In Claude Code: run `/mcp`, pick `optiply`, choose **Authenticate** and sign in with their Optiply login in the browser that opens.
 3. **More than one Optiply connector** (the plugin's and one the user added by hand, or Production and Acceptance): use the one that answers, Production unless the user says otherwise, and say which one you use. A server added by hand with `claude mcp add` at the same address can hide the others in Claude Code: remove it with `claude mcp remove <name>`.
 4. Tell the user once: Claude asks permission the first time it uses each Optiply tool. "Always allow" is fine for the tools that only read (listing webshops, asking the agent, loading progress); changes are still only made after they approve the change table, and "Allow once" keeps an extra click on applying a change.
-5. Probe with `optiply_list_webshops`. If the user has many webshops, pass `search` with the name they give.
+5. Probe with `optiply_list_webshops`. If the user has many webshops, add `search` with the name they give.
 6. Read the result:
    - Webshops listed: tick the first two items and note the webshop UUID.
    - Authorization error (401, "not authorized", no role): the account is not enabled for the Optiply agent yet. Tell the user to ask their Optiply contact to enable agent access for their login email. Stop here.

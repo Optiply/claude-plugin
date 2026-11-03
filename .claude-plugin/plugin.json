@@ -1,7 +1,7 @@
 {
   "name": "optiply",
   "displayName": "Optiply",
-  "version": "0.15.0",
+  "version": "0.15.1",
   "description": "Onboard your Optiply account and fix your data with the Optiply agent, and run a free purchasing health check on Optiply or on your own system's data: overstock, dead stock, missed sales, slow suppliers and data problems in euros.",
   "author": {
     "name": "Optiply",
@@ -17,5 +17,6 @@
     "data-quality",
     "health-check"
   ],
-  "license": "PolyForm-Shield-1.0.0"
+  "license": "PolyForm-Shield-1.0.0",
+  "privacyPolicyUrl": "https://www.optiply.com/en/privacy-policy"
 }

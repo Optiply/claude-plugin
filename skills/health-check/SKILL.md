@@ -18,7 +18,7 @@ A check of the user's purchasing in ca. 15 minutes that ends in one page with eu
 
 ## 1. Mode
 
-- **Customer mode:** `optiply_list_webshops` is available and returns a webshop (pass `search` when the user names one). Never invent a UUID.
+- **Customer mode:** `optiply_list_webshops` is available and returns a webshop (with `search` when the user names one). Never invent a UUID.
 - **Prospect mode:** the user says they do not use Optiply, the tool is missing, or it returns an authorization error or no webshop. Do not ask them to connect Optiply; carry on with their own system.
 
 Say which mode in one line.

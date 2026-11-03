@@ -11,7 +11,7 @@ Four datasets, as CSV or Excel. Product, stock, sales and purchase data is enoug
 
 \* required. Sales may be order lines (several per day) or totals per product per day; the script adds them up per day. Totals per month are not enough: ask for a daily report or the order lines. Stock is today's stock on hand for the warehouses they buy for; ask which figure the system calls on hand.
 
-Map a column with `--col FILE.FIELD=COLUMN`, for example `--col stock.purchase_price="Cost per item"`. Columns already named like the script's fields need no mapping. Dates may be ISO (2026-10-31) or day first (31-10-2026); pass `--month-first` for 10-31-2026. Numbers may use a decimal comma.
+Map a column with `--col FILE.FIELD=COLUMN`, for example `--col stock.purchase_price="Cost per item"`. Columns already named like the script's fields need no mapping. Dates may be ISO (2026-10-31) or day first (31-10-2026); add `--month-first` for 10-31-2026. Numbers may use a decimal comma.
 
 ## Column names to look for
 
